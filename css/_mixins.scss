@@ -1,0 +1,17 @@
+@mixin btn {
+  a{
+    // display: flex;
+    // justify-content: center;
+    // width: 309px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    background: map-get($map: $colors, $key:main );
+    border-radius: 6px;
+    padding: 16px;
+    margin: 15px 0 0;
+    text-decoration: none;
+    color: map-get($map: $colors, $key:headText );
+  }
+}
