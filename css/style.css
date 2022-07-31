@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Inter", sans-serif;
+  width: 100%;
 }
 
 header {
@@ -151,7 +152,7 @@ main .hostels h1 {
   background-position: bottom left;
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 15px;
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
@@ -234,4 +235,347 @@ main .hostels #hostels #hostel #location a {
   text-decoration: none;
   background: #D96F00;
   color: #ffffff;
+}
+main .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+main .about h1 {
+  background: url(../images/Rectangle\ 2882.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+}
+main .about #about {
+  display: flex;
+  padding: 20px;
+  gap: 30px;
+}
+main .about #about p {
+  width: 676px;
+  height: 580px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 45px;
+  letter-spacing: 0.01em;
+}
+main .about #about a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  background: #09AD96;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 15px 0 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+main .back-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 60px;
+}
+main .back-image img {
+  width: 100%;
+  height: 779px;
+}
+main .admins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .admins h1 {
+  background: url(../images/Rectangle\ 2882.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+}
+main .admins .images {
+  display: flex;
+}
+main .admins .images .image-list {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+main .admins .images .image-list div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .admins .images .image-list div img {
+  width: 100%;
+  border: none;
+}
+main .admins .images .image-list div div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+  padding: 10px;
+}
+main .admins .images .image-list div div h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+}
+main .admins .images .image-list div div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .admins .images .image-list div div span a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  background: #09AD96;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 15px 0 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+main .admins .images .image-list div div span a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  height: 48px;
+  margin: 20px;
+}
+main .admins .images .image-list div div span a:nth-of-type(2) {
+  background: #D96F00;
+}
+main .admins .images .image-list div div span a:hover {
+  cursor: pointer;
+}
+main .admins .images .image-list .small {
+  width: 300px;
+  margin: 20px;
+}
+main .activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+main .activity h1 {
+  background: url(../images/Rectangle\ 2882.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+}
+main .activity .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .activity .content .content-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 40px 0;
+  gap: 40px;
+}
+main .activity .content .content-img div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+main .activity .content .content-img div span {
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+main .activity .content .content-img div span h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+}
+main .activity .content .content-img div span p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 43px;
+}
+main .activity .content .content-img div span a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  align-self: flex-end;
+}
+main .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .contact h1 {
+  background: url(../images/Rectangle\ 2882.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #000000;
+}
+main .contact .contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 30px;
+}
+main .contact .contact-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 30px 0;
+  align-self: flex-start;
+}
+main .contact .contact-container div h3 {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+main .contact .contact-container div p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+main .contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  width: 543px;
+  gap: 20px;
+}
+main .contact form h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+main .contact form input {
+  width: 100%;
+  height: 60px;
+}
+main .contact form input:nth-of-type(3) {
+  height: 167px;
+}
+main .contact form a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  background: #09AD96;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 15px 0 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+main .contact form a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid rgba(0, 0, 0, 0.3);
+}
+.bottom img {
+  display: flex;
+  padding: 20px;
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: #EEEEEE;
+  border-top: 3px solid rgba(0, 0, 0, 0.2);
+}
+footer p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 135%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.9);
 }/*# sourceMappingURL=style.css.map */
